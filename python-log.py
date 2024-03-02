@@ -10,3 +10,6 @@ for i in range(len(grades)): #Replacing any grade under 80 with "Failed"
     if grades[i] < 80:
         grades[i] = "Failed"
         print(grades)
+        
+        grades.append ("Passed")
+        print(grades)
